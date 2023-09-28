@@ -6,7 +6,7 @@
 
 ## TIMELINE:
 
-- 13 days (Sep 27 - Oct 10).
+- 13 days (Sep 28 - Oct 12.
 
 ## TARGET:
 
