@@ -8,8 +8,8 @@
             position: absolute;
             top: 57px;
             right: 43px; 
-            font-size: 30px;
-            background-color: rgba(196, 196, 196, 0.15);
+            font-size: 2rem;
+            background-color: $color_icon_right;
             border-radius:10px ;
             padding: 7px 8px 8px 7px;
         
@@ -19,7 +19,7 @@
             position: relative;
             top: 56px;
             left: 35px;
-            font-size: 18px;
+            font-size: 1.1rem;
             font-weight: 700;
             font-style: normal;
             line-height: normal;
@@ -34,10 +34,10 @@
             position: absolute;
             left: 0;
             bottom: 0;
-            top: 31.06px;
-            width: 79.681px;
-            height:  2.39px;
-            background-color: #17C2EC;
+            top: 31px;
+            width: 80px;
+            height:  3px;
+            background-color: $color_menu_item_left;
             border-radius: 1px;
 
         }
