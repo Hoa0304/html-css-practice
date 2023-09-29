@@ -1,6 +1,12 @@
 @use "abstracts/" as *;
 
+
+
+
+@media screen and (min-width:320px) and (max-width:428px) {
+ 
 body {
-  @include bg-img("../assets/images/unsplash_S.png");
-//   background:url("../assets/images/unsplash_S.png");
+    @include bg-img("../assets/images/unsplash_S.png");
+    background-size: 428px 2000px;
+}   
 }
