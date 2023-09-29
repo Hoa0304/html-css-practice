@@ -1,0 +1,48 @@
+@use '../abstracts/colors' as *;
+@use '../base/reset';
+@media screen and (min-width:320px) and (max-width:428px){
+    header{
+        position: relative;
+
+        .icon_align--right{
+            position: absolute;
+            top: 57px;
+            right: 43px; 
+            font-size: 2rem;
+            background-color: $color_icon_right;
+            border-radius:10px ;
+            padding: 7px 8px 8px 7px;
+        
+        }
+        .home_icon--left{
+            text-decoration: none;
+            position: relative;
+            top: 56px;
+            left: 35px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            font-style: normal;
+            line-height: normal;
+            color: $color_white;
+            height: 21px;
+            width: 200px;
+            flex-shrink: 0;
+            font-style: normal;
+        }
+        .home_icon--left::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            top: 31px;
+            width: 80px;
+            height:  3px;
+            background-color: $color_menu_item_left;
+            border-radius: 1px;
+
+        }
+    }
+   
+
+}
+
