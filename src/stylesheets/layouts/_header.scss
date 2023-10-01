@@ -1,4 +1,4 @@
-@use '../abstracts/variable' as *;
+@use '../abstracts/colors' as *;
 @use '../base/reset';
 @media screen  and (max-width:319px) {
     
@@ -337,25 +337,7 @@
                  display: inline-flex;
                  align-items: flex-start;
                  gap: 25px;
-                 .nav_pk_items:nth-child(1) {
-                    position: relative;
-                    a{
-                        color: $color_white;
-                        font-weight: 900;
-
-                    }
-                 }
-                 .nav_pk_items:nth-child(1)::after{
-                    content: "";
-                    position: absolute;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    bottom: -10px;
-                    width: 10px;
-                    height: 10px;
-                    border-radius: 50%;
-                    background-color: $color_menu_item_left;
-                 }
+                 
                  .nav_pk_items{
                     position: relative;
                     list-style-type: none;
@@ -368,10 +350,10 @@
                         color: $color_initial_header;
                         font-style: normal;
                         position: relative;
-                        font-family: "Montserrat Regular", sans-serif;
+                        font-family: "Montserrat-Thin";
                     }
                     .nav_items::after{                        
-                      
+                        font-family: "Montserrat";
                         content: "";
                         position: absolute;
                         left: 50%;
@@ -382,20 +364,18 @@
                         background-color: $color_menu_item_left;
                         border-radius: 50%;
                         opacity: 0;
-                        font-weight: 900;
+                        font-weight: 700;
                     }
                     .nav_items:hover{
                         color: $color_white;
-                        
+
                     }
                     .nav_items:hover::after{
                         opacity: 1;
                     }
-                    
                    
                  }
             }
-            
             
         }
         .checkstatus--right{
