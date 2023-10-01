@@ -1,10 +1,18 @@
 @use "abstracts/" as *;
 
 
-
-
-
- 
-body {
-    @include bg-img("../assets/images/unsplash_S.png");
-}   
+@media screen and (max-width:767px) {
+   body{
+        @include bg-img("../assets/images/bgMobile.png");
+    }       
+}
+@media screen and (min-width:768px) and (max-width:1439px){
+    body{
+        @include bg-img("../assets/images/bgTablet.png");
+    }
+}
+@media screen and (min-width:1440px) {
+    body{
+        @include bg-img("../assets/images/unsplash_S.png");
+    }
+}
