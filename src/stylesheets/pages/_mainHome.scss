@@ -3,8 +3,9 @@
 
 
 
-
+@media screen and (min-width:320px) and (max-width:428px) {
  
 body {
     @include bg-img("../assets/images/unsplash_S.png");
 }   
+}
