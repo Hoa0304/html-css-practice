@@ -1,6 +1,7 @@
 @use "abstracts/" as *;
 
 
+
 @media screen and (max-width:767px) {
    body{
         @include bg-img("../assets/images/bgMobile.png");
@@ -15,4 +16,5 @@
     body{
         @include bg-img("../assets/images/unsplash_S.png");
     }
+
 }
