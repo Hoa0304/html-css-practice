@@ -1,6 +1,7 @@
-$fonts:"Montserrat";
+
+@use '../abstracts/variable' as *;
 html{
-    font-family: $fonts;
+
 }
 *{
 
